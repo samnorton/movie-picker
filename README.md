@@ -2,7 +2,7 @@
 
 A simple app for comparing two movies that can pick the best award winning and viewer's choice movie.
 
-![](https://i.imgur.com/nRtZurP.png)
+![](https://i.imgur.com/u9zVQH3.jpg)
 
 
 ## Installation
