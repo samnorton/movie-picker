@@ -79,7 +79,7 @@ h1 {
 }
 .movie-title {
 	letter-spacing: 0.1em;
-	margin-top: 30px !important;
+	margin-top: 20px !important;
 }
 .movie-genre {
 	font-style: italic;
@@ -137,4 +137,22 @@ article.winning {
 		margin-top: 40px;
 		min-height: 40vh;
 	}
+	a.dropdown-item{
+	  font-size: 1.2em;
+	}
+}
+@media only screen and (min-device-width: 997px) and (max-device-width: 1391px) {
+  input#search{
+     font-size: 0.9em;
+  }
+  .dropdown-menu{
+	  width: 80%;
+	  word-wrap: break-word;
+  }
+  a.dropdown-item{
+	word-wrap: break-word; 
+	white-space: normal;
+	font-size: 0.9em;
+	width: 400px;
+  }
 }

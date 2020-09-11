@@ -124,7 +124,7 @@ console.log('awards', awards)
 
   return `
      <article class="media">
-             <img class="mr-3" width="144" src="${movieDetail.Poster}" />
+             <img class="mr-3" width="144" src="${movieDetail.Poster === 'N/A' ? 'https://via.placeholder.com/300x444' : movieDetail.Poster }" />
         <div class="media-body">
           <div class="content">
              <h1 class="movie-title">${movieDetail.Title}</h1>

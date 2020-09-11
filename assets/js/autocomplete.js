@@ -6,7 +6,7 @@ const inputAutoComplete = ({ root, renderOption, onOptionSelect, inputValue, fet
     <div class="input-group-prepend">
       <div class="input-group-text">🔍</div>
     </div>
-    <input type="text" class="form-control form-control-lg" id="search" placeholder="Search a movie on both side to compare..">
+    <input type="text" class="form-control form-control-lg" id="search" placeholder="Search a movie on both side..">
   </div>
   </div>
   
